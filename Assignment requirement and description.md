@@ -14,6 +14,18 @@ Each Subject code, student can check their detailed result of as below example:
 
 # DATABASE REQUIREMEMTS
 
+> The database must consist of at least six tables that have been populated with data. The database is to support queries that would typically be submitted to the system for the topical area that you have chosen. You must do the following:
+ Self-investigation for the requirement of the system. Listed them all as form of reports, business rules.
+·	Using UML, Chen’s notation to create an Entity Relationship (ER) model for your relational database. All entity types, their attributes and relationships must be clearly shown. You will also be required to show all cardinality and participation constraints. You should use some enhanced ER features in your conceptual model where it makes sense to do so.
+·	Map the EER model devised in part (1) into a relational data model. It must be normalised up to at least 3rd Normal Form.
+·	Using appropriate SQL commands create a set of database tables in MS SQL Server 2008+. You should also show all constraints used in the creation of the tables.
+·	Populate the database with a small amount of data. The data should be meaningful but does not need to be extensive. The following sites may be useful for quickly generating data:
+	http://www.databasetestdata.com/
+	http://www.generatedata.com/
+•	Your database must contain one view, one trigger, on store procedure and an index (describe why).
+•	Create 10 sample queries that demonstrate the expressiveness of your database system. Your queries must demonstrate different aspects of the system.
+
+
  a)      A brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
 
 
