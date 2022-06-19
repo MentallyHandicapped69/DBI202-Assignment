@@ -62,7 +62,9 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ## 1. Define Entites
 ### Student
   - **_StudentID_**
-  - Student_Name
+  - Surname
+  - Middle_name
+  - Given_name
   - DOB
   - Sex
   - Major
@@ -75,7 +77,9 @@ f)        The trigger, store procedure, and the index should be added (explain w
 
 ### Lecture
   - **_LectureID_**
-  - Lecture_Name
+  - Surname
+  - Middle_name
+  - Given_name
   - DOB
   - Sex
   - Hired_Date
@@ -100,6 +104,8 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_StudentID_**
   - **_CourseID_** 
   - Enroll_Date (dd/mm/yyyy that this student enroll in this course)
+
+
 ## Assessments
   - **_CourseID_**
   - **_Category_** (Type of assessment)
@@ -118,15 +124,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_StudentID_**
   - **_Category_**
 
-## Result
-  - **_CourseID_**
-  - **_GroupID_**
-  - Semester
-  - Start_Date
-  - End_Date
-  - Average_mark
-  - Status
-
 ## Grade Report
   - **_CourseID_**
   - **_Category_**
@@ -136,3 +133,13 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Value
   - Comment
   - Course_total_average_status
+
+## Result
+  - **_CourseID_**
+  - **_GroupID_**
+  - Semester
+  - Start_Date
+  - End_Date
+  - Average_mark
+  - Status
+
