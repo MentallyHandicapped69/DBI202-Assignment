@@ -102,7 +102,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Enroll_Date (dd/mm/yyyy that this student enroll in this course)
 ## Assessments
   - **_CourseID_**
-  - **_Category_** **_(Type of assessment)_**
+  - **_Category_** (Type of assessment)
   - Type (TYpe of category of assessment)
   - Part (How many parts of value point need to pass the course)
   - Weight (this assessment account for ?% of the total point value)
@@ -126,3 +126,13 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - End_Date
   - Average_mark
   - Status
+
+## Grade Report
+  - **_CourseID_**
+  - **_Category_**
+  - Semester
+  - Grade_item(s)
+  - Weight
+  - Value
+  - Comment
+  - Course_total_average_status
