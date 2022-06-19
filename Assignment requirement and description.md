@@ -83,10 +83,11 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Department
   - Semester
 
-## Enroll
+## Group
+  - **_GroupID_**
   - **_StudentID_**
-  - **_CourseID_**
-  - Enroll_Date
+  - **_CourseID_** 
+  - Enroll_Date (dd/mm/yyyy that this student enroll in this course)
 ## Assessments
   - **_CourseID_**
   - **_Category_** **_(Type of assessment)_**
@@ -104,3 +105,12 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ## Examination
   - **_StudentID_**
   - **_Category_**
+
+## Result
+  - **_CourseID_**
+  - **_GroupID_**
+  - Semester
+  - Start_Date
+  - End_Date
+  - Average_mark
+  - Status
