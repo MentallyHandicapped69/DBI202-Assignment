@@ -89,7 +89,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Enroll_Date
 ## Assessments
   - **_CourseID_**
-  - **_Category (Type of assessment) _**
+  - **_Category_** **_(Type of assessment)_**
   - Type (TYpe of category of assessment)
   - Part (How many parts of value point need to pass the course)
   - Weight (this assessment account for ?% of the total point value)
