@@ -94,10 +94,13 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Part (How many parts of value point need to pass the course)
   - Weight (this assessment account for ?% of the total point value)
   - Completion_Criteria (prerequisite condition to pass the assessment)
-  - Duraton
+  - Duraton ( Time needed to do assessment)
   - Question_Type
   - Number_of_Questions
   - Knowledge_and_Skills
   - Grading_Guide
   - Note (As known as description)
 
+## Examination
+  - **_StudentID_**
+  - **_Category_**
