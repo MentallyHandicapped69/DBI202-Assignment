@@ -69,9 +69,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Contact_Mail
   - Image
   - Address
-  - City
-  - Region
-  - Country
 
 ### Lecture
   - **_LectureID_**
@@ -82,9 +79,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Instructed_subject
   - Contact_mail
   - Address
-  - City
-  - Region
-  - Country
 
 ### Course (as known as 'Subject' )
   - **_CourseID_**
