@@ -15,15 +15,22 @@ d)      The set of database statements used to create the tables used in your da
 
 
 e)      10 queries that demonstrate the usefulness of the database. Also state why and when each query would be used. The following must be demonstrated by at least one of your queries:
-o   A query that uses ORDER BY
-o   A query that uses INNER JOINS
-o   A query that uses aggregate functions
-o   A query that uses the GROUP BY and HAVING clauses
-o   A query that uses a sub-query as a relation
-o   A query that uses a sub-query in the WHERE clause
-o   A query that uses partial matching in the WHERE clause
-o   A query that uses a self-JOIN
 
+o   A query that uses ORDER BY
+
+o   A query that uses INNER JOINS
+
+o   A query that uses aggregate functions
+
+o   A query that uses the GROUP BY and HAVING clauses
+
+o   A query that uses a sub-query as a relation
+
+o   A query that uses a sub-query in the WHERE clause
+
+o   A query that uses partial matching in the WHERE clause
+
+o   A query that uses a self-JOIN
 
 
 f)        The trigger, store procedure, and the index should be added (explain why you make it)
