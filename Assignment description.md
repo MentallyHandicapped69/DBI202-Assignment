@@ -62,9 +62,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ## 1. Define Entites
 ### Student
   - **_StudentID_**
-  - Surname
-  - Middle_name
-  - Given_name
+  - Student_name
   - DOB
   - Sex
   - Major
@@ -77,14 +75,12 @@ f)        The trigger, store procedure, and the index should be added (explain w
 
 ### Lecture
   - **_LectureID_**
-  - Surname
-  - Middle_name
-  - Given_name
+  - Lecture_name
   - DOB
   - Sex
-  - Hired_Date
-  - Instructed_Subject
-  - Contact_Mail
+  - Hired_date
+  - Instructed_subject
+  - Contact_mail
   - Address
   - City
   - Region
@@ -94,8 +90,8 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_CourseID_**
   - **_LectureID_**
   - Course_Name
-  - Session_No
-  - Student_Materials
+  - Session_no
+  - Student_materials
   - Department
   - Semester
 
@@ -114,10 +110,10 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Weight (this assessment account for ?% of the total point value)
   - Completion_Criteria (prerequisite condition to pass the assessment)
   - Duraton ( Time needed to do assessment)
-  - Question_Type
-  - Number_of_Questions
+  - Question_type
+  - Number_of_questions
   - Knowledge_and_Skills
-  - Grading_Guide
+  - Grading_guide
   - Note (As known as description)
 
 ## Examination
@@ -138,8 +134,8 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_CourseID_**
   - **_GroupID_**
   - Semester
-  - Start_Date
-  - End_Date
+  - Start_date
+  - End_date
   - Average_mark
   - Status
 
