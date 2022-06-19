@@ -63,7 +63,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ### Student
   - **_StudentID_**
   - Student_name
-  - DOB
+  - Birthday
   - Sex
   - Major
   - Contact_Mail
@@ -73,7 +73,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ### Lecture
   - **_LectureID_**
   - Lecture_name
-  - DOB
+  - Birthday
   - Sex
   - Hired_date
   - Instructed_subject
