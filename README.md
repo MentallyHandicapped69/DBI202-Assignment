@@ -1,6 +1,14 @@
 # DBI202-Assignment
 
-#DATABASE REQUIREMEMTS
+## This is a Student Grading Management Sub-System database,for each subject that attended by the student, the lecture will give score to the assessment to each of their assessment. Below figure shows an Example of the assessments for course DBI202.
+
+![image](https://user-images.githubusercontent.com/100286938/174485972-e70254e7-5249-4ade-bc97-3b25f9b53eca.png)
+Students can check their results at the end of semester as following example:
+![image](https://user-images.githubusercontent.com/100286938/174486043-76c76bcf-2a98-475c-894f-5ce28482ce22.png)
+Each Subject code, student can check their detailed result of as below example:
+![image](https://user-images.githubusercontent.com/100286938/174486049-6f73fbd3-7a1b-437f-bb9b-d15edb8c7622.png)
+
+# DATABASE REQUIREMEMTS
 
 a)      A brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
 
@@ -34,4 +42,41 @@ o   A query that uses a self-JOIN
 
 
 f)        The trigger, store procedure, and the index should be added (explain why you make it)
+------------------------------------------------------------------------------------------------------------
+## 1. Create Entites##
+### Student
+  - StudentID
+  - StudentName
+  - DOB
+  - Sex
+  - Major
+  - ContactMail
+  - Image
+  - Address
+  - City
+  - Region
+  - Country
 
+### Lecture
+  - LectureID
+  - LectureName
+  - DOB
+  - Sex
+  - HiredDate
+  - InstructedSubject
+  - ContactMail
+  - Address
+  - City
+  - Region
+  - Country
+
+### Course (as known as 'Subject' )
+  - CourseID
+  - CourseName
+  - Department
+  - LectureID
+
+## Enroll
+  - StudentID
+  - CourseID
+  - EnrollDate
