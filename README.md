@@ -14,19 +14,19 @@ Each Subject code, student can check their detailed result of as below example:
 
 # DATABASE REQUIREMEMTS
 
-[x] a)      A brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
+ a)      A brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
 
 
-[x] b)      An ERD (Entity Relationship Diagram) that fully describes the database (giving descriptions on your work would be appreciated).
+ b)      An ERD (Entity Relationship Diagram) that fully describes the database (giving descriptions on your work would be appreciated).
 
 
-[ ] c)       The relational schema derived from the ERD that is at least in 3NF (Any detail of the process would be appreciated).
+ c)       The relational schema derived from the ERD that is at least in 3NF (Any detail of the process would be appreciated).
 
 
-[ ] d)      The set of database statements used to create the tables used in your database. You do NOT need to include all the data and insert statements.
+ d)      The set of database statements used to create the tables used in your database. You do NOT need to include all the data and insert statements.
 
 
-[ ] e)      10 queries that demonstrate the usefulness of the database. Also state why and when each query would be used. The following must be demonstrated by at least one of your queries:
+ e)      10 queries that demonstrate the usefulness of the database. Also state why and when each query would be used. The following must be demonstrated by at least one of your queries:
 
 o   A query that uses ORDER BY
 
@@ -76,9 +76,11 @@ f)        The trigger, store procedure, and the index should be added (explain w
 
 ### Course (as known as 'Subject' )
   - **_CourseID_**
+  - **_LectureID_**
   - Course_Name
+  - Session_No
+  - Student_Materials
   - Department
-  - LectureID
   - Semester
 
 ## Enroll
@@ -87,15 +89,15 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Enroll_Date
 ## Assessments
   - **_CourseID_**
-  - **_Assessment_Category_**
-  - Type
-  - Part
-  - Weight
-  - Completion_Criteria
+  - **_Category (Type of assessment) _**
+  - Type (TYpe of category of assessment)
+  - Part (How many parts of value point need to pass the course)
+  - Weight (this assessment account for ?% of the total point value)
+  - Completion_Criteria (prerequisite condition to pass the assessment)
   - Duraton
   - Question_Type
   - Number_of_Questions
   - Knowledge_and_Skills
   - Grading_Guide
-  - Note
+  - Note (As known as description)
 
