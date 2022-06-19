@@ -95,6 +95,9 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_CourseID_** 
   - Enroll_Date (dd/mm/yyyy that this student enroll in this course)
 
+## Instruction
+  - **_GroupID_**
+  - **_LectureID_**
 
 ## Assessments
   - **_CourseID_**
