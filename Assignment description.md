@@ -82,7 +82,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
 
 ### Course (as known as 'Subject' )
   - **_CourseID_**
-  - **_LectureID_**
   - Course_Name
   - Session_no
   - Student_materials
