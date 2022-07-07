@@ -62,21 +62,20 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ## 1. Define Entites
 ### Student
   - **_StudentID_**
-  - Student_name
-  - Birthday
+  - Student name (which include first name and last name)
+  - Year of birth
   - Sex
   - Major
   - Contact_Mail
-  - Image
+  - Image ( image to identify the student )
   - Address
 
 ### Lecture
   - **_LectureID_**
-  - Lecture_name
-  - Birthday
+  - Lecture name
+  - Year of birth
   - Sex
-  - Hired_date
-  - Instructed_subject
+  - Hired_date ( when lecture started working in this school )
   - Contact_mail
   - Address
 
@@ -84,7 +83,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_CourseID_**
   - Course_Name
   - Session_no
-  - Student_materials
   - Department
   - Semester
 
@@ -93,39 +91,39 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_StudentID_**
   - **_LectureID_**
   - **_CourseID_** 
-  - Enroll_Date (dd/mm/yyyy that this student enroll in this course)
+  - Enroll Date (dd/mm/yyyy that this student enroll in this course)
 
-## Instruction
-  - **_GroupID_**
+## Class
   - **_LectureID_**
+  - **_GroupID_**
+  - **_CourseID_**
+  - Attendance Status ( whether if the student is attend to class or not )
+
+## Piece of Work ( things must do if student take the course )
+  - **_CourseID_**
+  - **_Category_** 
 
 ## Assessments
   - **_CourseID_**
-  - **_Category_** (Type of assessment)
-  - Type (TYpe of category of assessment)
+  - **_Category_** 
+  - Type (Type of piece of work)
   - Part (How many parts of value point need to pass the course)
   - Weight (this assessment account for ?% of the total point value)
   - Completion_Criteria (prerequisite condition to pass the assessment)
-  - Duraton ( Time needed to do assessment)
-  - Question_type
-  - Number_of_questions
-  - Knowledge_and_Skills
-  - Grading_guide
-  - Note (As known as description)
+  - Duraton ( Time needed to do assessment )
+  - Number of questions
 
-## Examination
+## Process
   - **_StudentID_**
-  - **_Category_**
-
-## Grade Report
   - **_CourseID_**
   - **_Category_**
-  - Semester
-  - Grade_item(s)
-  - Weight
-  - Value
-  - Comment
-  - Course_total_average_status
+  - Start date
+  - End date
+
+## Grading ( score that lecture give to students based on their assessments )
+  - **_LectureID_**
+  - **_CourseID_**
+  - **_Category_**
 
 ## Result
   - **_CourseID_**
