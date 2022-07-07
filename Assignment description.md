@@ -113,7 +113,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Duraton ( Time needed to do assessment )
   - Number of questions
 
-## Process
+## Process  ( The progress of student when doing Piece of Work )
   - **_StudentID_**
   - **_CourseID_**
   - **_Category_**
