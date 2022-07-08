@@ -165,13 +165,14 @@ f)        The trigger, store procedure, and the index should be added (explain w
 - Class and StudentGroup: 1 group can be assigned into many class, but 1 class can only has 1 group ➜ so the relationship here is 1-N
 ```
 ```
-- Territory and Student/Lecture: as known as "Person", each person has their own territory that they live , which include region, address, city, distinct,... ect. But 1 territory is the place for many people lives in ➜ so the relationships here is 1-N
+- Territory and Student/Lecture: as known as "Person", each person has their own territory that they live, which include region, address, city, distinct,... ect.
+ But 1 territory is the place for many people lives in ➜ so the relationships here is 1-N
 ```
 ```
-Course and Piece of works ( as known as to-do-Works): in each course include  many pieces of works like assignments, exams,..etc. But 1 piece of work is belong to 1 course ( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course, the exam about character of japanese cannot be the same as madarin) ➜ so the so the relationships here is 1-N
+- Course and Piece of works ( as known as to-do-Works): in each course include  many pieces of works like assignments, exams,..etc. But 1 piece of work is belong to 1 course ( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course, the exam about character of japanese cannot be the same as madarin) ➜ so the so the relationships here is 1-N
 ```
 ```
-Student and Piece of works: if a student wants to pass this course and get the certificate, he/she will have to do all the Piece of works, and all Piece of works can be done by many students (many student can take final exam, can do the same assignment ) ➜ so the relationship here is N-N
+- Student and Piece of works: if a student wants to pass this course and get the certificate, he/she will have to do all the Piece of works, and all Piece of works can be done by many students (many student can take final exam, can do the same assignment ) ➜ so the relationship here is N-N
 ➜ the new table called "process" is created
 ```
 ### Process  ( The progress of student when doing Piece of Work ) :baby:
@@ -181,7 +182,8 @@ Student and Piece of works: if a student wants to pass this course and get the c
   - Start date
   - End date
 ```
-Piece of works and Assessment: each Piece of works has their own assessment, assessment is the conditition to specify if the student pass the course or not, but each assessment is belong to 1 course ( the assessment of madarin course and japanese can't be the same) ➜ so the relationships here is 1-N
+- Piece of works and Assessment: each Piece of works has their own assessment, assessment is the conditition to specify if the student pass the course or not.
+but each assessment is belong to 1 course ( the assessment of madarin course and japanese can't be the same) ➜ so the relationships here is 1-N
 ```
 ```
 Lecture and Assessment: The lecture is going to give score to student based on their assessment, 1 lecture can marking many assessment, 1 assessment also can be marked by many lectures ( example: final exam is marked by many, many lectures but not only one, assignments and home works are also can be marked by other lectures if that lecture have knowledges and skills of that course of that major ) ➜ so the relationships here is 1-N
