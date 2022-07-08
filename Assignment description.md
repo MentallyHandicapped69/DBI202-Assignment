@@ -93,13 +93,13 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Semester
   - Number of credits
 
-## Group
+### Group
   - **_GroupID_**
   - **_StudentID_**
   - **_CourseID_** 
   - Enroll Date (dd/mm/yyyy that this student enroll in this course)
 
-## Class
+### Class
   - **_ClassID_**
   - **_LectureID_**
   - **_GroupID_**
@@ -107,13 +107,13 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_StudentID_**
   - Attendance Status ( whether if the student is attend to class or not )
 
-## Piece of Work ( things must do if student take the course )
+### Piece of Work ( things must do if student take the course )
   - **_CourseID_**
   - **_Category_** 
   - Start date
   - End date
 
-## Assessments
+### Assessments
   - **_AssessmentID_**
   - **_Category_** 
   - Type (Type of piece of work)
@@ -123,22 +123,24 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Duraton ( Time needed to do assessment )
   - Number of questions
 
-## Process  ( The progress of student when doing Piece of Work )
+### Process  ( The progress of student when doing Piece of Work )
   - **_StudentID_**
   - **_CourseID_**
   - **_Category_**
   - Start date
   - End date
 
-## Grading ( score that lecture give to students based on their assessments )
+### Grading ( score that lecture give to students based on their assessments )
   - **_LectureID_**
   - **_AssessmentID_**
 
-## Result
+### Result
   - **_ResultID_**
   - **_AssessmentID_**
   - Day of publication
   - Mark
   - Status
 
-#### 2. Define Relationships
+## 2. Define Relationships
+
+
