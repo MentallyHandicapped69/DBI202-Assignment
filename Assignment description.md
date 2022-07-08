@@ -140,7 +140,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Day of publication
   - Mark
   - Status
-
+:fist_right:
 ## 2. Convert ERD into relational mapping
 #### 2.1. Define cardinality constraints/partial constraints
 ```
