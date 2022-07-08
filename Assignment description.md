@@ -174,7 +174,8 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ```
 - Course and Piece of works ( as known as to-do-Works): in each course include  many pieces of works like assignments, exams,..etc. 
 But 1 piece of work is belong to 1 course 
-( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course, the exam about character of japanese cannot be the same as madarin) 
+( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course
+, the exam about character of japanese cannot be the same as madarin) 
 ➜ so the so the relationships here is 1-N
 ```
 ```
@@ -191,8 +192,7 @@ and all Piece of works can be done by many students (many student can take final
   - End date
 ```
 - Piece of works and Assessment: each Piece of works has their own assessment, assessment is the conditition to specify if the student pass the course or not.
-but each assessment is belong to 1 course ( the assessment of madarin course 
-and japanese can't be the same) 
+but each assessment is belong to 1 course ( the assessment of madarin course and japanese can't be the same) 
 ➜ so the relationships here is 1-N
 ```
 ```
