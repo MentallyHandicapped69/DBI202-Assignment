@@ -143,4 +143,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
 
 ## 2. Define Relationships
 
-
+```
+- Student and Course ( 1 student can enrolls in many course, vice versa, the the relationships is N - N)
+```
