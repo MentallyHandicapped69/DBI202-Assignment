@@ -93,7 +93,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Semester
   - Number of credits
 
-### Group
+### StudentGroup
   - **_GroupID_**
   - **_StudentID_**
   - **_CourseID_** 
@@ -140,14 +140,20 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Day of publication
   - Mark
   - Status
-:fist_right:
 ## 2. Convert ERD into relational mapping
 #### 2.1. Define cardinality constraints/partial constraints
 ```
-  :fist_right: 1-1: look for partial constraints if it's total or partial
-  :fist_right: 1-n/n-1: move the primary of the 1-sided table into the n-sided table and set it as foreign key 
+   1-1: look for partial constraints if it's total or partial
+   1-n/n-1: move the primary key (PK) of the 1-sided table into the n-sided table and set it as foreign key (FK)
+   n-n: create a new table that its PKs set is the combination of its relative tables' PKs
+```
+
+#### 2.2. Look for relationships between entities
+```
+- Student and Course ( 1 student can enrolls in many course, vice versa, the the relationships is N-N)
+  ➜ so the table called StudentGroup has been created and its PKs are the PKs set of Student and Course table
 ```
 
 ```
-- Student and Course ( 1 student can enrolls in many course, vice versa, the the relationships is N - N)
+- Lecture and class ( 1 lecture can teaches/instructes in many class, but 1 class can only be teached by 1 lecture, so the relationship here is 1-N)
 ```
