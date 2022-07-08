@@ -93,7 +93,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Semester
   - Number of credits
 
-### StudentGroup
+### StudentGroup :baby:
   - **_GroupID_**
   - **_StudentID_**
   - **_CourseID_** 
@@ -123,14 +123,14 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Duraton ( Time needed to do assessment )
   - Number of questions
 
-### Process  ( The progress of student when doing Piece of Work )
+### Process  ( The progress of student when doing Piece of Work ) :baby:
   - **_StudentID_**
   - **_CourseID_**
   - **_Category_**
   - Start date
   - End date
 
-### Grading ( score that lecture give to students based on their assessments )
+### Grading ( score that lecture give to students based on their assessments ) :baby:
   - **_LectureID_**
   - **_AssessmentID_**
 
