@@ -65,7 +65,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_TerritoryID_** ( where does this student lives )
   - Student frist name
   - Student last name
-  - Year of birth
+  - BirthDay
   - Sex
   - Major
   - Contact Mail
@@ -76,7 +76,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_TerritoryID_** ( where does this lecture lives )
   - Lecture first name
   - Lecture last name
-  - Year of birth
+  - BirthDay
   - Sex
   - Worked since ( when lecture started working in this school )
   - Contact mail
