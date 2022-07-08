@@ -207,7 +207,9 @@ assignments and home works are also can be marked by other lectures if that lect
   - **_LectureID_**
   - **_AssessmentID_**
 ```
-Assessment and Result: in the end of course, after all student have their score of their category, the Result will appear and the whether students passed or not passed are all based on the result, 1 assessment can have many different result, but 1 result is belong to 1 assessment ( your Fundamental programming's result can not equals to your Object oriented programming's) ➜ so the so the relationships here is 1-N.
+Assessment and Result: in the end of course, after all student have their score of their category, the Result will appear and the whether students passed or not passed are all based on the result, 1 assessment can have many different result,
+but 1 result is belong to 1 assessment ( your Fundamental programming's result can not equals to your Object oriented programming's)
+➜ so the so the relationships here is 1-N.
 ```
 
 
