@@ -175,7 +175,9 @@ f)        The trigger, store procedure, and the index should be added (explain w
 - Course and Piece of works ( as known as to-do-Works): in each course include  many pieces of works like assignments, exams,..etc. But 1 piece of work is belong to 1 course ( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course, the exam about character of japanese cannot be the same as madarin) ➜ so the so the relationships here is 1-N
 ```
 ```
-- Student and Piece of works: if a student wants to pass this course and get the certificate, he/she will have to do all the Piece of works, and all Piece of works can be done by many students (many student can take final exam, can do the same assignment ) ➜ so the relationship here is N-N
+- Student and Piece of works: if a student wants to pass this course and get the certificate,he/she will have to do all the Piece of works, 
+and all Piece of works can be done by many students (many student can take final exam, can do the same assignment ) 
+➜ so the relationship here is N-N
 ➜ the new table called "process" is created
 ```
 ### Process  ( The progress of student when doing Piece of Work ) :baby:
@@ -190,7 +192,10 @@ but each assessment is belong to 1 course ( the assessment of madarin course and
 ➜ so the relationships here is 1-N
 ```
 ```
-Lecture and Assessment: The lecture is going to give score to student based on their assessment, 1 lecture can marking many assessment, 1 assessment also can be marked by many lectures ( example: final exam is marked by many, many lectures but not only one, assignments and home works are also can be marked by other lectures if that lecture have knowledges and skills of that course of that major ) ➜ so the relationships here is 1-N
+Lecture and Assessment: The lecture is going to give score to student based on their assessment, 
+1 lecture can marking many assessment, 1 assessment also can be marked by many lectures 
+( example: final exam is marked by many, many lectures but not only one, assignments and home works are also can be marked by other lectures if that lecture have knowledges and skills of that course of that major ) 
+➜ so the relationships here is 1-N
 ➜ so the new table called "Grading (Marking) " is created
 ```
 ### Grading ( score that lecture give to students based on their assessments ) :baby:
