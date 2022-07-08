@@ -141,7 +141,12 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Mark
   - Status
 
-## 2. Define Relationships
+## 2. Convert ERD into relational mapping
+#### 2.1. Define cardinality constraints/partial constraints
+```
+  :fist_right: 1-1: look for partial constraints if it's total or partial
+  :fist_right: 1-n/n-1: move the primary of the 1-sided table into the n-sided table and set it as foreign key 
+```
 
 ```
 - Student and Course ( 1 student can enrolls in many course, vice versa, the the relationships is N - N)
