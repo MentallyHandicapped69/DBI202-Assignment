@@ -197,7 +197,8 @@ but each assessment is belong to 1 course ( the assessment of madarin course and
 ```
 Lecture and Assessment: The lecture is going to give score to student based on their assessment, 
 1 lecture can marking many assessment, 1 assessment also can be marked by many lectures 
-( example: final exam is marked by many, many lectures but not only one, assignments and home works are also can be marked by other lectures if that lecture have knowledges and skills of that course of that major ) 
+( example: final exam is marked by many, many lectures but not only one, 
+assignments and home works are also can be marked by other lectures if that lecture have knowledges and skills of that course of that major ) 
 ➜ so the relationships here is 1-N
 ➜ so the new table called "Grading (Marking) " is created
 ```
