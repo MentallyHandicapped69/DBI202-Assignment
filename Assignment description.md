@@ -153,7 +153,18 @@ f)        The trigger, store procedure, and the index should be added (explain w
 - Student and Course ( 1 student can enrolls in many course, vice versa, the the relationships is N-N)
   ➜ so the table called StudentGroup has been created and its PKs are the PKs set of Student and Course table
 ```
-
+### StudentGroup :baby:
+  - **_GroupID_**
+  - **_StudentID_**
+  - **_CourseID_** 
+  - Enroll Date (dd/mm/yyyy that this student enroll in this course)
 ```
 - Lecture and class ( 1 lecture can teaches/instructes in many class, but 1 class can only be teached by 1 lecture, so the relationship here is 1-N)
+```
+
+```
+- Class and StudentGroup ( 1 group can be assigned into many class, but 1 class can only has 1 group,so the relationship here is 1-N)
+```
+```
+- Territory and Student/Lecture ( as known as "Person", each person has their own territory that they live , which include region, address, city, distinct,... ect. But 1 territory is the place for many people lives in, so the relationships here is 1-N)
 ```
