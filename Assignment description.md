@@ -191,7 +191,8 @@ and all Piece of works can be done by many students (many student can take final
   - End date
 ```
 - Piece of works and Assessment: each Piece of works has their own assessment, assessment is the conditition to specify if the student pass the course or not.
-but each assessment is belong to 1 course ( the assessment of madarin course and japanese can't be the same) 
+but each assessment is belong to 1 course ( the assessment of madarin course 
+and japanese can't be the same) 
 ➜ so the relationships here is 1-N
 ```
 ```
