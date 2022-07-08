@@ -172,7 +172,10 @@ f)        The trigger, store procedure, and the index should be added (explain w
  But 1 territory is the place for many people lives in ➜ so the relationships here is 1-N
 ```
 ```
-- Course and Piece of works ( as known as to-do-Works): in each course include  many pieces of works like assignments, exams,..etc. But 1 piece of work is belong to 1 course ( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course, the exam about character of japanese cannot be the same as madarin) ➜ so the so the relationships here is 1-N
+- Course and Piece of works ( as known as to-do-Works): in each course include  many pieces of works like assignments, exams,..etc. 
+But 1 piece of work is belong to 1 course 
+( the assignment of the Database course cannot be same as the assignment of Data structure and algorithms course, the exam about character of japanese cannot be the same as madarin) 
+➜ so the so the relationships here is 1-N
 ```
 ```
 - Student and Piece of works: if a student wants to pass this course and get the certificate,he/she will have to do all the Piece of works, 
