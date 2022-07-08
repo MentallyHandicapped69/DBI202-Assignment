@@ -62,54 +62,64 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ## 1. Define Entites
 ### Student
   - **_StudentID_**
-  - Student name (which include first name and last name)
+  - **_TerritoryID_** ( where does this student lives )
+  - Student frist name
+  - Student last name
   - Year of birth
   - Sex
   - Major
-  - Contact_Mail
+  - Contact Mail
   - Image ( image to identify the student )
-  - Address
 
 ### Lecture
   - **_LectureID_**
-  - Lecture name
+  - **_TerritoryID_** ( where does this lecture lives )
+  - Lecture first name
+  - Lecture last name
   - Year of birth
   - Sex
-  - Hired_date ( when lecture started working in this school )
-  - Contact_mail
-  - Address
+  - Worked since ( when lecture started working in this school )
+  - Contact mail
+
+### Territory
+  - **_TerritoryID_**
+  - Territory description
 
 ### Course (as known as 'Subject' )
   - **_CourseID_**
   - Course_Name
-  - Session_no
+  - Number of sessions
   - Department
   - Semester
+  - Number of credits
 
 ## Group
   - **_GroupID_**
   - **_StudentID_**
-  - **_LectureID_**
   - **_CourseID_** 
   - Enroll Date (dd/mm/yyyy that this student enroll in this course)
 
 ## Class
+  - **_ClassID_**
   - **_LectureID_**
   - **_GroupID_**
   - **_CourseID_**
+  - **_StudentID_**
   - Attendance Status ( whether if the student is attend to class or not )
 
 ## Piece of Work ( things must do if student take the course )
   - **_CourseID_**
   - **_Category_** 
+  - Start date
+  - End date
 
 ## Assessments
-  - **_CourseID_**
+  - **_AssessmentID_**
   - **_Category_** 
   - Type (Type of piece of work)
   - Part (How many parts of value point need to pass the course)
   - Weight (this assessment account for ?% of the total point value)
-  - Completion_Criteria (prerequisite condition to pass the assessment)
+  - Completion criteria (prerequisite condition to pass the assessment)
   - Duraton ( Time needed to do assessment )
   - Number of questions
 
@@ -122,15 +132,12 @@ f)        The trigger, store procedure, and the index should be added (explain w
 
 ## Grading ( score that lecture give to students based on their assessments )
   - **_LectureID_**
-  - **_CourseID_**
-  - **_Category_**
+  - **_AssessmentID_**
 
 ## Result
-  - **_CourseID_**
-  - **_GroupID_**
-  - Semester
-  - Start_date
-  - End_date
-  - Average_mark
+  - **_ResultID_**
+  - **_AssessmentID_**
+  - Day of publication
+  - Mark
   - Status
 
