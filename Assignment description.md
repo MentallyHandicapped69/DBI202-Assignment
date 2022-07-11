@@ -106,7 +106,11 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - **_Category_** 
   - Start date
   - End date
-
+### Output
+  - **_OutputID_**
+  - **_StudentID_**
+  - **_Category_** 
+  - Submission status
 ### Assessments
   - **_AssessmentID_**
   - **_Category_** 
@@ -117,12 +121,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Duraton ( Time needed to do assessment )
   - Number of questions
 
-### Result
-  - **_ResultID_**
-  - **_AssessmentID_**
-  - Day of publication
-  - Mark
-  - Status
 ## 2. Convert ERD into relational mapping
 #### 2.1. Define cardinality constraints/partial constraints
 ```
@@ -179,20 +177,27 @@ but each assessment is belong to 1 course ( the assessment of madarin course and
 ➜ so the relationships here is 1-N
 ```
 ```
-Lecture and Assessment: The lecture is going to give score to student based on their assessment, 
-1 lecture can marking many assessment, 1 assessment also can be marked by many lectures 
-( example: final exam is marked by many, many lectures but not only one, 
-assignments and home works are also can be marked by other lectures if that lecture have knowledges and skills of that course of that major ) 
+- Process and Output: each Student do a piece of work will has an output, each student has many output in many category, but 1 output in 1 category can only be possessed by 1 student
 ➜ so the relationships here is 1-N
-➜ so the new table called "Grading (Marking) " is created
 ```
-### Grading ( score that lecture give to students based on their assessments ) :baby:
+```
+Lecture and Output: The lecture will give score to students based on their output, many lectures can give marks to many student and vice versa ( for example, the pratical exam and final exam can't be graded by 1 lecture)
+➜ so the relationship here is N-N
+➜ the new table called "grading" is created
+```
+### Grading
   - **_LectureID_**
+  - **_OutputID_**
+  - submission status
+
+```
+- Grading and Assessment: After lectures grading scores for students, scores then will be compared with assessment conditions to find out whether the student pass the course or not, 1 gradding score will have to compare to many assessment conditions and 1 assessment conditions will be compared to many gradding score
+➜ so the relationship here is N-N
+➜ the new table called "result" is created
+```
+### Result
+  - **_OutputID_**
   - **_AssessmentID_**
-```
-Assessment and Result: in the end of course, after all student have their score of their category, the Result will appear and the whether students passed or not passed are all based on the result, 1 assessment can have many different result,
-but 1 result is belong to 1 assessment ( your Fundamental programming's result can not equals to your Object oriented programming's)
-➜ so the so the relationships here is 1-N.
-```
-
-
+  - Day of publication
+  - Mark
+  - Status
