@@ -185,7 +185,7 @@ Lecture and Output: The lecture will give score to students based on their outpu
 ➜ so the relationship here is N-N
 ➜ the new table called "grading" is created
 ```
-### Grading
+### Grading 👶
   - **_LectureID_**
   - **_OutputID_**
   - submission status
@@ -195,7 +195,7 @@ Lecture and Output: The lecture will give score to students based on their outpu
 ➜ so the relationship here is N-N
 ➜ the new table called "result" is created
 ```
-### Result
+### Result 👶
   - **_OutputID_**
   - **_AssessmentID_**
   - Day of publication
