@@ -93,12 +93,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Semester
   - Number of credits
 
-### StudentGroup :baby:
-  - **_GroupID_**
-  - **_StudentID_**
-  - **_CourseID_** 
-  - Enroll Date (dd/mm/yyyy that this student enroll in this course)
-
 ### Class
   - **_ClassID_**
   - **_LectureID_**
@@ -122,17 +116,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
   - Completion criteria (prerequisite condition to pass the assessment)
   - Duraton ( Time needed to do assessment )
   - Number of questions
-
-### Process  ( The progress of student when doing Piece of Work ) :baby:
-  - **_StudentID_**
-  - **_CourseID_**
-  - **_Category_**
-  - Start date
-  - End date
-
-### Grading ( score that lecture give to students based on their assessments ) :baby:
-  - **_LectureID_**
-  - **_AssessmentID_**
 
 ### Result
   - **_ResultID_**
