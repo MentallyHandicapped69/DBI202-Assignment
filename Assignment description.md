@@ -96,10 +96,6 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ### Class
   - **_ClassID_**
   - **_LectureID_**
-  - **_GroupID_**
-  - **_CourseID_**
-  - **_StudentID_**
-  - Attendance Status ( whether if the student is attend to class or not )
 
 ### Piece of Work ( things must do if student take the course )
   - **_CourseID_**
@@ -144,9 +140,16 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ```
 
 ```
-- Class and StudentGroup: 1 group can be assigned into many class, but 1 class can only has 1 group 
-➜ so the relationship here is 1-N
+- Class and StudentGroup: 1 group can be assigned into many class,  1 class can also has many groups 
+➜ so the relationship here is N-N
+➜ so the table called Studied-in is created
 ```
+### Studied-in :baby:
+  - **_ClassID_**
+  - **_GroupID_**
+  - **_StudentID_**
+  - **_CourseID_** 
+  - Enroll Date (dd/mm/yyyy that this student enroll in this course)
 ```
 - Territory and Student/Lecture: as known as "Person", each person has their own territory that they live, 
  which include region, address, city, distinct,... ect.
