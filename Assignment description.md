@@ -207,7 +207,7 @@ Lecture and Output: The lecture will give score to students based on their outpu
 
 
 
-```
+``` sql
 USE DBI202_Assignment_SU2022
 
 CREATE TABLE Territory(
