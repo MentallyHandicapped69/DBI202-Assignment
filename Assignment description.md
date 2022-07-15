@@ -206,7 +206,7 @@ Lecture and Output: The lecture will give score to students based on their outpu
   - Status
 
 
-
+## 3. Genereate tables and insert objects
 ``` sql
 USE DBI202_Assignment_SU2022
 
