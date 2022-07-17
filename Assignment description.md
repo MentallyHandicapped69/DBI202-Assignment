@@ -26,7 +26,7 @@ Each Subject code, student can check their detailed result of as below example:
 •	Create 10 sample queries that demonstrate the expressiveness of your database system. Your queries must demonstrate different aspects of the system.
 
 
- a)      A  brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
+ a)      A brief description of the database including any assumptions made during the design (THIS IS VERY IMPORTANT TO CLERIFY THE ASSUMTIONS in form of business rules).
 
 
  b)      An ERD (Entity Relationship Diagram) that fully describes the database (giving descriptions on your work would be appreciated).
