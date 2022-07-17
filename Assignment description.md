@@ -74,6 +74,7 @@ f)        The trigger, store procedure, and the index should be added (explain w
 ### Lecture
   - **_LectureID_**
   - **_TerritoryID_** ( where does this lecture lives )
+  - **_Report to_** (who the lecture report to)
   - Lecture first name
   - Lecture last name
   - BirthDay
